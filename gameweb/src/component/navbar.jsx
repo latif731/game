@@ -8,7 +8,7 @@ import { getGameGenre } from "../store/action/genres";
 
 export default function ColorTabs() {
   const [value, setValue] = React.useState("one");
-
+  //test
   const dispatch = useDispatch();
   const { genre, itLoading } = useSelector((state) => state?.genres?.genreGame);
   console.log(genre);
